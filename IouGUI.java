@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class IouGUI implements ActionListener, KeyListener {
-	//here are our variables for the GUI
+    // Variables for the GUI
     private JLabel label;
     private JLabel user;
     private JButton requestButton;
@@ -35,15 +35,15 @@ public class IouGUI implements ActionListener, KeyListener {
     private String borrower;
     private String dueDate;
     
-    //here is our constructor for the GUI
+    // Constructor for the GUI
     public IouGUI(String username) {
         this.borrower = username;
         frame = new JFrame();
         panel = new JPanel();  
-        //boxLayout for vertical alignment
+        // boxLayout for vertical alignment
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         panel.setBorder(BorderFactory.createEmptyBorder(50, 50, 100, 50)); // Padding around the panel        
-        //label at the top
+        // label at the top
         label = new JLabel("IOU Manager");
         user = new JLabel("Welcome " + username + " how can we help you?");
         dueDateLabel = new JLabel("When do you think you can pay it back?");
