@@ -1,5 +1,5 @@
 # IOU-Banking-App  
-This project is a Java + MySQL application that manages IOUs between users. It features account creation, login, and an IOU manager dashboard. The prototype requires some setup with Eclipse, MySQL, and provided project files.  
+This project is a Java + MySQL banking app that manages IOUs between users. It features IOU system, deposit management, automatic notifications, user transparency, and working out timely payments and extensions.
 ## Technologies  
 Java | MySQL  
 ## Use Cases  
@@ -19,7 +19,7 @@ Java | MySQL
 - Grant permissions  
 - Run the Application  
 - You can now:  
-  Create a new account.  
-  Add yourself directly to the database.  
-  Log in to access the IOU Manager.  
-  Refer to the provided Setup PDF for screenshots and additional guidance
+  - Create a new account.  
+  - Add yourself directly to the database.  
+  - Log in to access the IOU Manager.  
+*Refer to the provided Setup PDF for screenshots and additional guidance*  
