@@ -227,7 +227,7 @@ public class accountGUI implements ActionListener, KeyListener {
                         transaction.matches("^\\d+(\\.\\d{1,2})?$")) {
                     depositButton.setEnabled(true);  //enable if both fields are filled and valid
                 } else {
-                    depositButton.setEnabled(false); //disable otherwise
+                    depositButton.setEnabled(false);
                 }
             }
         }
