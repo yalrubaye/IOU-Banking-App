@@ -82,7 +82,7 @@ public class IouGUI implements ActionListener, KeyListener {
         panel.add(label); // Add the label first
         panel.add(Box.createVerticalStrut(40));
         panel.add(user);
-        panel.add(Box.createVerticalStrut(20)); // Vertical space between label and buttons
+        panel.add(Box.createVerticalStrut(20));
         panel.add(amountLabel);
         panel.add(Box.createVerticalStrut(10));
         panel.add(amountField);
