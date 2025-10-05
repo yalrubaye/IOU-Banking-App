@@ -137,7 +137,7 @@ public class accountGUI implements ActionListener, KeyListener {
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             // Set the balance and user_id in the SQL statement
             pstmt.setDouble(1, balance); // Set the new balance
-            pstmt.setInt(2, user_id);        // Set the user ID
+            pstmt.setInt(2, user_id);   
 
             // Execute the update
             int rowsAffected = pstmt.executeUpdate();
