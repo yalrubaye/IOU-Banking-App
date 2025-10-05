@@ -95,7 +95,7 @@ public class accountGUI implements ActionListener, KeyListener {
         panel.add(depositLabel);
         panel.add(depositField);
         panel.add(Box.createVerticalStrut(10));
-        panel.add(buttonPanel); // Add the button panel with deposit and withdrawal
+        panel.add(buttonPanel); // add the button panel with deposit and withdrawal
         panel.add(Box.createVerticalStrut(5));
         panel.add(backButton);        
         //set up the frame
