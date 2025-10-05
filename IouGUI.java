@@ -167,7 +167,7 @@ public class IouGUI implements ActionListener, KeyListener {
                 //update label and buttons for confirmation
                 label.setText("Confirm IOU:");
                 requestButton.setText("Confirm");
-                manageButton.setVisible(false); //hide the manage button
+                manageButton.setVisible(false);
                 //display the amount and creditor for confirmation
                 amountLabel.setText("Amount: $" + amount);
                 creditorLabel.setText("Creditor: " + creditor);
