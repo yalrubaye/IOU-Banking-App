@@ -14,7 +14,7 @@ public class bbaDatabase {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
     
-    //test function
+    //Test function
     /*
     //here is a function to check if a user name exists in the 'users' table that was used for testing
     public static boolean checkUsername(String username) {
