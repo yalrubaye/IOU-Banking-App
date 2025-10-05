@@ -60,7 +60,7 @@ public class LoginGUI implements ActionListener, KeyListener {
         usernameField = new JTextField(15);
         passwordField = new JTextField(15);         //initialize password field
         passwordConfirmField = new JTextField(15);  //initialize password confirm field      
-        passwordMatchLabel.setVisible(false); //hide initially
+        passwordMatchLabel.setVisible(false);
         passwordConfirmField.setVisible(false);
         label.setFont(new Font("Arial", Font.BOLD, 24)); //set font size to 24
         label.setAlignmentX(JLabel.CENTER_ALIGNMENT); //center the label
