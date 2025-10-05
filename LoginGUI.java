@@ -63,7 +63,7 @@ public class LoginGUI implements ActionListener, KeyListener {
         passwordMatchLabel.setVisible(false);
         passwordConfirmField.setVisible(false);
         label.setFont(new Font("Arial", Font.BOLD, 24)); //set font size to 24
-        label.setAlignmentX(JLabel.CENTER_ALIGNMENT); //center the label
+        label.setAlignmentX(JLabel.CENTER_ALIGNMENT);
         //buttons and their labels
         loginButton = new JButton("Login");
         createButton = new JButton("Create Account");
