@@ -34,7 +34,7 @@ public class accountGUI implements ActionListener, KeyListener {
     		    stmt.setString(1, username); //set the borrower name to get the user_id
     		    try (ResultSet resultSet = stmt.executeQuery()) {
     		        if (resultSet.next()) {
-    		            balance = resultSet.getDouble("balance");  //retrieve the balance
+    		            balance = resultSet.getDouble("balance");
     		        }
     		    }
     		}
