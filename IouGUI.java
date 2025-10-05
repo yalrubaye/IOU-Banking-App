@@ -47,7 +47,7 @@ public class IouGUI implements ActionListener, KeyListener {
         label = new JLabel("IOU Manager");
         user = new JLabel("Welcome " + username + " how can we help you?");
         dueDateLabel = new JLabel("When do you think you can pay it back?");
-        label.setFont(new Font("Arial", Font.BOLD, 24)); //set font size to 24
+        label.setFont(new Font("Arial", Font.BOLD, 24));
         label.setAlignmentX(JLabel.CENTER_ALIGNMENT); //center the label
         user.setFont(new Font("Arial", Font.BOLD, 18)); //set font size to 24
         user.setAlignmentX(JLabel.CENTER_ALIGNMENT);
