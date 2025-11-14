@@ -52,7 +52,7 @@ public class IouGUI implements ActionListener, KeyListener {
         user.setFont(new Font("Arial", Font.BOLD, 18));
         user.setAlignmentX(JLabel.CENTER_ALIGNMENT);
         dueDateLabel.setAlignmentX(JLabel.CENTER_ALIGNMENT);     
-        //buttons and their labels
+        // buttons and their labels
         requestButton = new JButton("Create a new IOU");
         manageButton = new JButton("Manage Existing IOU");
         //resize buttons
