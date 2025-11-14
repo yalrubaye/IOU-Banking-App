@@ -35,7 +35,7 @@ public class IouGUI implements ActionListener, KeyListener {
     private String borrower;
     private String dueDate;
     
-    // Constructor for the GUI
+    //Constructor for the GUI
     public IouGUI(String username) {
         this.borrower = username;
         frame = new JFrame();
