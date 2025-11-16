@@ -1,4 +1,4 @@
-//This file will handle the login step for the Basic Bank App
+// This file will handle the login step for the Basic Bank App
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.Font;
