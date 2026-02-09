@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class IouGUI implements ActionListener, KeyListener {
-    // Variables for the GUI
+    // Variables for the GU
     private JLabel label;
     private JLabel user;
     private JButton requestButton;
